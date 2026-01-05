@@ -23,11 +23,12 @@ export default function Home() {
           <div className="relative max-w-6xl mx-auto px-6 py-24 md:py-32 lg:py-40">
             <div className="max-w-2xl">
               <h1 className="font-[family-name:var(--font-raleway)] text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight mb-6">
-                Arealplanlegger i Innlandet
+                Arealplanlegger Beitostølen i Innlandet
               </h1>
               <p className="font-[family-name:var(--font-lora)] text-lg md:text-xl text-slate-200 mb-8 leading-relaxed">
-                Jeg hjelper kommuner, utbyggere og grunneiere med profesjonell arealplanlegging.
-                Fra reguleringsplaner til konsekvensutredninger.
+                Jeg bistår grunneiere, utbyggere, det offentlige og andre med dispensasjonssaker,
+                delingssaker, reguleringsplaner, stedsanalyser, kommuneplanarbeid med medvirkning
+                og prosjektledelse.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
@@ -58,20 +59,33 @@ export default function Home() {
                 </h2>
                 <div className="font-[family-name:var(--font-lora)] text-muted space-y-4 leading-relaxed">
                   <p>
-                    Jeg er en erfaren arealplanlegger med base i Innlandet. Med mange års erfaring
-                    fra både offentlig og privat sektor, har jeg opparbeidet meg bred kompetanse
-                    innen arealplanlegging og reguleringsarbeid.
+                    Jeg har lang erfaring med arealplanlegging med base på Beitostølen i Innlandet,
+                    og har mange års erfaring fra både offentlig og privat sektor. Jeg har opparbeidet
+                    meg bred kompetanse innen arealplanlegging og reguleringsarbeid og også planlegging
+                    av skianlegg.
                   </p>
                   <p>
-                    Min tilnærming er grundig og løsningsorientert. Jeg legger vekt på god
-                    kommunikasjon med alle involverte parter, fra kommunale saksbehandlere
-                    til naboer og interesseorganisasjoner.
+                    Min tilnærming er grundig og løsningsorientert, og jeg legger vekt på god
+                    kommunikasjon med alle involverte parter, fra kommunale saksbehandlere til
+                    naboer og interesseorganisasjoner.
                   </p>
                   <p>
                     Gjennom årene har jeg bistått med et bredt spekter av prosjekter - fra
-                    mindre reguleringsendringer til større områdeplaner.
+                    mindre reguleringsendringer til større områdeplaner, kommune(del)planer
+                    og regionalplan.
                   </p>
                 </div>
+                <a
+                  href="/cv.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 mt-6 px-6 py-3 bg-primary hover:bg-primary-dark text-white font-medium rounded-lg transition-colors duration-200"
+                >
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  Last ned CV
+                </a>
               </div>
               <div className="relative">
                 <div className="aspect-square rounded-2xl overflow-hidden shadow-xl">
@@ -98,7 +112,7 @@ export default function Home() {
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Tjeneste 1 */}
+              {/* Reguleringsplaner */}
               <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
                 <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
                   <svg className="w-7 h-7 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -109,12 +123,12 @@ export default function Home() {
                   Reguleringsplaner
                 </h3>
                 <p className="font-[family-name:var(--font-lora)] text-muted leading-relaxed">
-                  Utarbeidelse av detaljreguleringsplaner og reguleringsendringer.
-                  Fra oppstart til vedtak.
+                  Utarbeidelse av detaljreguleringsplaner og områdeplaner. Prosess med reguleringsplaner
+                  fra planinitiativ og mulighetsskisser til vedtatt plan i kommunen.
                 </p>
               </div>
 
-              {/* Tjeneste 2 */}
+              {/* Konsekvensutredninger */}
               <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
                 <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
                   <svg className="w-7 h-7 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -130,7 +144,7 @@ export default function Home() {
                 </p>
               </div>
 
-              {/* Tjeneste 3 */}
+              {/* Medvirkning */}
               <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
                 <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
                   <svg className="w-7 h-7 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -146,7 +160,7 @@ export default function Home() {
                 </p>
               </div>
 
-              {/* Tjeneste 4 */}
+              {/* Stedsanalyser */}
               <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
                 <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
                   <svg className="w-7 h-7 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -162,7 +176,7 @@ export default function Home() {
                 </p>
               </div>
 
-              {/* Tjeneste 5 */}
+              {/* Kommuneplanarbeid */}
               <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
                 <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
                   <svg className="w-7 h-7 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -178,7 +192,7 @@ export default function Home() {
                 </p>
               </div>
 
-              {/* Tjeneste 6 */}
+              {/* Dispensasjonssaker */}
               <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
                 <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
                   <svg className="w-7 h-7 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -186,12 +200,55 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="font-[family-name:var(--font-raleway)] text-xl font-semibold text-foreground mb-3">
-                  Dispensasjonssøknader
+                  Dispensasjonssaker
                 </h3>
                 <p className="font-[family-name:var(--font-lora)] text-muted leading-relaxed">
                   Utarbeidelse og oppfølging av søknader
                   om dispensasjon fra gjeldende planer.
                 </p>
+              </div>
+
+              {/* Delingssaker */}
+              <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
+                <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
+                  <svg className="w-7 h-7 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+                  </svg>
+                </div>
+                <h3 className="font-[family-name:var(--font-raleway)] text-xl font-semibold text-foreground mb-3">
+                  Delingssaker
+                </h3>
+                <p className="font-[family-name:var(--font-lora)] text-muted leading-relaxed">
+                  Bistand med rekvisisjon av kart og oppmåling
+                  og delingssaker.
+                </p>
+              </div>
+
+              {/* Skiløypeplanlegging */}
+              <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
+                <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6">
+                  <svg className="w-7 h-7 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                  </svg>
+                </div>
+                <h3 className="font-[family-name:var(--font-raleway)] text-xl font-semibold text-foreground mb-3">
+                  Skiløypeplanlegging
+                </h3>
+                <p className="font-[family-name:var(--font-lora)] text-muted leading-relaxed">
+                  Planlegging og utvikling av skianlegg og skiløyper.
+                  Lang erfaring med planlegging av skiinfrastruktur.
+                </p>
+                <a
+                  href="/skianlegg.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 mt-4 text-primary hover:text-primary-dark font-medium transition-colors"
+                >
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  </svg>
+                  Les om Skianlegg
+                </a>
               </div>
             </div>
           </div>
@@ -234,8 +291,8 @@ export default function Home() {
                     </div>
                     <div>
                       <h4 className="font-medium text-foreground">Telefon</h4>
-                      <a href="tel:+4700000000" className="text-primary hover:text-primary-dark transition-colors">
-                        +47 000 00 000
+                      <a href="tel:+4799232230" className="text-primary hover:text-primary-dark transition-colors">
+                        +47 99 23 22 30
                       </a>
                     </div>
                   </div>
@@ -249,7 +306,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h4 className="font-medium text-foreground">Lokasjon</h4>
-                      <p className="text-muted">Innlandet, Norge</p>
+                      <p className="text-muted">Beitostølen, Innlandet</p>
                     </div>
                   </div>
                 </div>

@@ -15,9 +15,9 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Olav Talle | Arealplanlegger i Innlandet",
-  description: "Olav Talle tilbyr profesjonelle arealplanleggingstjenester i Innlandet. Kontakt meg for reguleringsplaner, konsekvensutredninger og planprosesser.",
-  keywords: ["arealplanlegger", "innlandet", "reguleringsplan", "arealplanlegging", "olav talle"],
+  title: "Arealplan Olav Talle | Arealplanlegger Beitostølen i Innlandet",
+  description: "Arealplan Olav Talle tilbyr profesjonelle arealplanleggingstjenester fra Beitostølen i Innlandet. Reguleringsplaner, konsekvensutredninger, skiløypeplanlegging og planprosesser.",
+  keywords: ["arealplanlegger", "beitostølen", "innlandet", "reguleringsplan", "arealplanlegging", "skiløypeplanlegging", "olav talle"],
 };
 
 export default function RootLayout({

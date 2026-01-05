@@ -20,8 +20,8 @@ export default function Footer() {
               />
             </Link>
             <p className="mt-4 text-slate-400 leading-relaxed">
-              Arealplanlegger med base i Innlandet.
-              Profesjonell bistand til kommuner, utbyggere og grunneiere.
+              Arealplanlegger med base på Beitostølen i Innlandet.
+              Profesjonell bistand til grunneiere, utbyggere og det offentlige.
             </p>
           </div>
 
@@ -52,17 +52,17 @@ export default function Footer() {
               <a href="mailto:post@olavtalle.no" className="hover:text-white transition-colors">
                 post@olavtalle.no
               </a>
-              <a href="tel:+4700000000" className="hover:text-white transition-colors">
-                +47 000 00 000
+              <a href="tel:+4799232230" className="hover:text-white transition-colors">
+                +47 99 23 22 30
               </a>
-              <p>Innlandet, Norge</p>
+              <p>Beitostølen, Innlandet</p>
             </div>
           </div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-slate-700">
           <p className="text-slate-500 text-sm text-center">
-            &copy; {currentYear} Olav Talle. Alle rettigheter reservert.
+            &copy; {currentYear} Arealplan Olav Talle. Alle rettigheter reservert.
           </p>
         </div>
       </div>

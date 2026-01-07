@@ -361,6 +361,16 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Fullbredde bilde */}
+        <section className="relative h-64 md:h-80 lg:h-96">
+          <Image
+            src="/images/skiloype.jpg"
+            alt="Preparert skiløype i vinterlandskap"
+            fill
+            className="object-cover"
+          />
+        </section>
       </main>
 
       <Footer />

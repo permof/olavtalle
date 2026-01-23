@@ -21,13 +21,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Arealplan Olav Talle | Arealplanlegger Beitostølen",
     description: "Profesjonelle arealplanleggingstjenester fra Beitostølen i Innlandet. Reguleringsplaner, konsekvensutredninger, skiløypeplanlegging og prosjektledelse.",
-    url: "https://www.olavtalle.no",
+    url: "https://olavtalle.no",
     siteName: "Arealplan Olav Talle",
     locale: "nb_NO",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.olavtalle.no",
+    canonical: "https://olavtalle.no",
   },
 };
 
@@ -37,10 +37,10 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "@id": "https://www.olavtalle.no/#business",
+      "@id": "https://olavtalle.no/#business",
       "name": "Arealplan Olav Talle",
       "description": "Profesjonelle arealplanleggingstjenester fra Beitostølen i Innlandet",
-      "url": "https://www.olavtalle.no",
+      "url": "https://olavtalle.no",
       "telephone": "+47 99 23 22 30",
       "email": "post@olavtalle.no",
       "address": {
@@ -68,7 +68,7 @@ const jsonLd = {
               "@type": "Service",
               "name": "Arealplanlegging",
               "description": "Regulering og omregulering av nye/eksisterende områder for hytter, boliger, veger, friluftsområder",
-              "url": "https://www.olavtalle.no/#arealplanlegging"
+              "url": "https://olavtalle.no/#arealplanlegging"
             }
           },
           {
@@ -77,7 +77,7 @@ const jsonLd = {
               "@type": "Service",
               "name": "Skiløypeplanlegging",
               "description": "Planlegging av konkurranseanlegg og skiløyper i hytteområder",
-              "url": "https://www.olavtalle.no/#skiloypeplanlegging"
+              "url": "https://olavtalle.no/#skiloypeplanlegging"
             }
           },
           {
@@ -86,7 +86,7 @@ const jsonLd = {
               "@type": "Service",
               "name": "Prosjektledelse",
               "description": "Saksgang av reguleringsplaner fra utarbeidelse av planforslag til godkjent plan",
-              "url": "https://www.olavtalle.no/#prosjektledelse"
+              "url": "https://olavtalle.no/#prosjektledelse"
             }
           },
           {
@@ -110,21 +110,21 @@ const jsonLd = {
     },
     {
       "@type": "Person",
-      "@id": "https://www.olavtalle.no/#person",
+      "@id": "https://olavtalle.no/#person",
       "name": "Olav Talle",
       "jobTitle": "Arealplanlegger",
       "worksFor": {
-        "@id": "https://www.olavtalle.no/#business"
+        "@id": "https://olavtalle.no/#business"
       },
-      "url": "https://www.olavtalle.no/#om"
+      "url": "https://olavtalle.no/#om"
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.olavtalle.no/#website",
-      "url": "https://www.olavtalle.no",
+      "@id": "https://olavtalle.no/#website",
+      "url": "https://olavtalle.no",
       "name": "Arealplan Olav Talle",
       "publisher": {
-        "@id": "https://www.olavtalle.no/#business"
+        "@id": "https://olavtalle.no/#business"
       }
     }
   ]

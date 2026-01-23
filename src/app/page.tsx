@@ -236,7 +236,7 @@ export default function Home() {
                 </h3>
                 <p className="font-[family-name:var(--font-lora)] text-muted leading-relaxed">
                   Planlegging og utvikling av skianlegg og skiløyper.
-                  Lang erfaring med planlegging av skiinfrastruktur.
+                  Lang erfaring med planlegging av skiløyper, og forfatter av boka «Veileder skianlegg».
                 </p>
                 <a
                   href="/skianlegg.pdf"

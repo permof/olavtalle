@@ -327,53 +327,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-
-              <div className="bg-slate-50 p-8 rounded-2xl">
-                <form className="space-y-6">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                      Navn
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      className="w-full px-4 py-3 rounded-lg border border-border focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all"
-                      placeholder="Ditt navn"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                      E-post
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      className="w-full px-4 py-3 rounded-lg border border-border focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all"
-                      placeholder="din@epost.no"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                      Melding
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      rows={5}
-                      className="w-full px-4 py-3 rounded-lg border border-border focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all resize-none"
-                      placeholder="Fortell om prosjektet ditt..."
-                    />
-                  </div>
-                  <button
-                    type="submit"
-                    className="w-full px-8 py-4 bg-primary hover:bg-primary-dark text-white font-medium rounded-lg transition-colors duration-200"
-                  >
-                    Send melding
-                  </button>
-                </form>
-              </div>
             </div>
           </div>
         </section>

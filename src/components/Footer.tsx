@@ -60,9 +60,20 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-slate-700">
+        <div className="mt-12 pt-8 border-t border-slate-700 flex flex-col items-center gap-2">
           <p className="text-slate-500 text-sm text-center">
             &copy; {currentYear} Arealplan Olav Talle. Alle rettigheter reservert.
+          </p>
+          <p className="text-slate-600 text-xs">
+            Utviklet av{" "}
+            <a
+              href="https://pmodigital.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-slate-400 transition-colors"
+            >
+              PMOdigital
+            </a>
           </p>
         </div>
       </div>

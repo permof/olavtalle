@@ -72,7 +72,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="hover:text-slate-400 transition-colors"
             >
-              PMOdigital
+              Often Digital
             </a>
           </p>
         </div>

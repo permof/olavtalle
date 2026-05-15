@@ -67,7 +67,7 @@ export default function Footer() {
           <p className="text-slate-600 text-xs">
             Utviklet av{" "}
             <a
-              href="https://pmodigital.vercel.app"
+              href="https://oftendigital.no"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-slate-400 transition-colors"
